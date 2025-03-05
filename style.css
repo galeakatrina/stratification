@@ -1,0 +1,145 @@
+html{
+}
+
+
+body{
+	font-family: Helvetica,Geneva,sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+
+}
+
+a {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 26px;
+	margin: 10px 0px 10px 0px;
+
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 22px;
+	margin: 5px 0px 5px 0px;
+}
+
+p {
+	margin : 10px 0px 10px 0px;
+}
+
+.content {
+	/* padding: 40px; */
+	/* height: 10000px; */
+}
+
+#intro {
+	/* background-color: white; */
+	color: black;
+	width: 100%;
+	top: 0px;
+	height:120px;
+	margin: 0px 0px 0px 0px;
+	position: fixed;
+	/* background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,100)); */
+
+}
+
+#main {
+	margin: 120px 0px 0px 0px;
+	width: 100%;
+	background-color: white;
+	padding: 0px;
+	overflow-x: scroll;
+	float: left;
+	/* width: 2000px; */
+}
+
+.plane {
+	background-color: white;
+	color: black;
+	height: 85%;
+	margin-right: 20px;
+	text-align: justify;
+  text-justify: inter-word;
+	/* overflow-y: scroll; */
+	float:left;
+	overflow-x: scroll;
+
+
+	/* margin:4px; */
+}
+
+
+.plane2 {
+	background-color: white;
+	color: black;
+	height: 85%;
+	margin-right: 20px;
+	text-align: justify;
+  text-justify: inter-word;
+	/* overflow-y: scroll; */
+	float:left;
+	overflow-x: scroll;
+}
+
+
+@media only screen and (min-width: 1200px) {
+.plane {
+			width: 420px; ;
+}
+.plane2{
+			width: 720px;
+}
+#main {
+	width: 6900px;
+}
+}
+@media only screen and (max-width: 1200px) {
+.plane {
+			width: 210px;
+}
+.plane2 {
+			width:400px;
+}
+#main {
+	width: 2000px;
+}
+}
+
+.diabox{
+	width: 100%;
+	height : 400px;
+	margin-bottom:50px;
+}
+
+.maindiabox{
+	width: 100%;
+	height : 100%;
+	overflow: hidden;
+}
+
+.textbox{
+
+	margin-bottom:200px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.diagrams{
+	width: 100%;
+	height: 100%;
+}
+
+.landscapeimages{
+  height: 100%;
+  width: auto;
+}
+
+.portraitimages{
+  width: 100%;
+  height: auto;
+}
